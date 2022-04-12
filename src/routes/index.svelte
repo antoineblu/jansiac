@@ -10,6 +10,10 @@
 	export let gallery: { url: string }[];
 </script>
 
+<svelte:head>
+	<title>Un chalet à Jansiac</title>
+</svelte:head>
+
 <Diary {days} />
 
 <h1>Toutes les photos</h1>
