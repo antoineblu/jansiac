@@ -1,13 +1,11 @@
 <script lang="ts">
-	import type { Day } from '$lib/components/Day';
 	import Diary from '$lib/components/Diary.svelte';
 	import Gallery from '$lib/components/Gallery.svelte';
 	import Image from '$lib/components/Image.svelte';
 	import Lazyload from '$lib/components/Lazyload.svelte';
 	import '$lib/styles/global.css';
 
-	export let days: Day[];
-	export let gallery: { url: string }[];
+	import { days, gallery } from './index';
 </script>
 
 <svelte:head>
