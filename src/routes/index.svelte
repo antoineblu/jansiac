@@ -6,20 +6,17 @@
 	import Lazyload from '$lib/components/Lazyload.svelte';
 	import '$lib/styles/global.css';
 
-	const possibilities = ['favicon.png', 'géo.png', 'logo.png', 'whileTrue.jpg'];
-	const images = [];
-	for (let i = 0; i < 30; i++) {
-		images.push(possibilities[Math.floor(Math.random() * possibilities.length)]);
-	}
-
 	export let days: Day[];
+	export let gallery: { url: string }[];
 </script>
 
 <Diary {days} />
+
+<h1>Toutes les photos</h1>
 <div class="gallery">
 	<Gallery>
-		{#each images as src}
-			<Image {src} />
+		{#each gallery as img}
+			<Image src={img.url} />
 		{/each}
 	</Gallery>
 </div>
@@ -27,12 +24,17 @@
 <Lazyload />
 
 <style>
+	h1 {
+		color: white;
+		margin: 2rem 0;
+		text-align: center;
+	}
 	.gallery {
 		margin: auto;
 		margin-bottom: 10rem;
 		width: min(95vw, 70rem);
 	}
 	.gallery :global(img:hover) {
-		transform: scale(1.2);
+		transform: scale(1.1);
 	}
 </style>

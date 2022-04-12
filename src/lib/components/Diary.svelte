@@ -51,8 +51,8 @@
 	}
 	select {
 		font-size: 1.5rem;
-		top: 1rem;
-		right: 1rem;
+		top: -2rem;
+		right: 0;
 		position: absolute;
 		z-index: 3;
 		background-color: #555;
@@ -87,10 +87,10 @@
 		.text {
 			position: absolute;
 			left: 5rem;
-			top: 2rem;
+			top: 3rem;
 		}
 		select {
-			top: 5rem;
+			top: 4rem;
 		}
 		.image {
 			top: 50%;
