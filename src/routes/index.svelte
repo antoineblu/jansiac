@@ -29,6 +29,7 @@
 	h1 {
 		color: white;
 		margin: 2rem 0;
+		margin-top: 6rem;
 		text-align: center;
 	}
 	.gallery {

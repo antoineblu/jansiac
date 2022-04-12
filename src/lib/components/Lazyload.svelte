@@ -13,7 +13,8 @@
 		observer.observe();
 		mediumZoom('.zoomable', {
 			margin: 10,
-			background: '#00000088'
+			background: '#00000088',
+			scrollOffset: 99999999
 		});
 	}
 </script>
