@@ -10,7 +10,6 @@
 	$: if (index != -1) {
 		index = Math.min(Math.max(0, index), days.length);
 		day = days[index];
-		console.log(index);
 	}
 
 	const duration = 700;

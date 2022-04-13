@@ -14,11 +14,24 @@
 
 <Diary {days} />
 
+<div class="historic">
+	<h1>Historique</h1>
+	<p>
+		Eh oui ! Ceci est déjà le deuxième volet de notre aventure. Si vous voulez retrouver nos
+		motivations et les photos de la dernière fois, vous pouvez trouver le site de l'époque à <a
+			href="https://projet.jansiac.repl.co">cette adresse</a
+		>
+	</p>
+</div>
+
 <h1>Toutes les photos</h1>
 <div class="gallery">
 	<Gallery>
-		{#each gallery as img}
-			<Image src={img.url} />
+		{#each gallery as _, i}
+			<Image
+				src={gallery[gallery.length - i - 1].url}
+				title={gallery[gallery.length - i - 1].title || ''}
+			/>
 		{/each}
 	</Gallery>
 </div>
@@ -29,9 +42,19 @@
 	h1 {
 		color: white;
 		margin: 2rem 0;
-		margin-top: 6rem;
+		margin-top: 8rem;
 		text-align: center;
 	}
+
+	.historic {
+		color: white;
+		width: min(95vw, 35rem);
+		margin: auto;
+	}
+	a {
+		color: white;
+	}
+
 	.gallery {
 		margin: auto;
 		margin-bottom: 10rem;
