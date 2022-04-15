@@ -15,6 +15,11 @@ export const days: Day[] = [
 		title: "Un peu d'ombre",
 		text: "Les murs sont tous debouts et le plafond attend sa laine de verre ! Les premières plaques du plafond offrent une ombre bienvenue avec le soleil qui est de plus en plus présent. Pour l'intérieur, nous avons posé le pare-vapeur qui permet une meilleure isolation de la laine de verre dangereuse pour la santé. Le toit pose encore quelques questions mais pour le moment, il s'agirait de rendre le chalet habitable et venir finir la toiture (en la modifiant) pour qu'elle résiste à la météo extrême de Jansiac.",
 		image: 'https://s5.imgcdn.dev/B1DYh.jpg'
+	},
+	{
+		title: 'La boîte se ferme',
+		text: "Tout est fermé et isolé ! Le temps est toujours de notre côté malgré quelques gouttes et le soleil qui est plus agréable en fin de journée... Pour ce qui est du moral, l'équipe sourit toujours et les liens entre nous se renforcent ! Ce soir, par exemple, une petite équipe de quatre est allée se laver à l'eau froide sortant de la montagne et acheminée par tuyau. Pour le chantier, il ne nous reste plus qu'à faire la toiture et la séparation intérieure avec des cloisons.",
+		image: 'https://s5.imgcdn.dev/B1MSn.jpg'
 	}
 ];
 
@@ -36,5 +41,11 @@ export const gallery = [
 	{ url: 'https://s5.imgcdn.dev/B1Y5V.jpg' },
 	{ url: 'https://s5.imgcdn.dev/B1DYh.jpg' },
 	{ url: 'https://s5.imgcdn.dev/B1hOK.jpg' },
-	{ url: 'https://s5.imgcdn.dev/B1jgo.jpg' }
+	{ url: 'https://s5.imgcdn.dev/B1jgo.jpg' },
+
+	{ url: 'https://s5.imgcdn.dev/B1ceg.jpg' },
+	{ url: 'https://s5.imgcdn.dev/B1MSn.jpg' },
+	{ url: 'https://s5.imgcdn.dev/B1CaN.jpg' },
+	{ url: 'https://s5.imgcdn.dev/B14cv.jpg' },
+	{ url: 'https://s5.imgcdn.dev/B1Itq.jpg' }
 ];
