@@ -20,6 +20,11 @@ export const days: Day[] = [
 		title: 'La boîte se ferme',
 		text: "Tout est fermé et isolé ! Le temps est toujours de notre côté malgré quelques gouttes et le soleil qui est plus agréable en fin de journée... Pour ce qui est du moral, l'équipe sourit toujours et les liens entre nous se renforcent ! Ce soir, par exemple, une petite équipe de quatre est allée se laver à l'eau froide sortant de la montagne et acheminée par tuyau. Pour le chantier, il ne nous reste plus qu'à faire la toiture et la séparation intérieure avec des cloisons.",
 		image: 'https://s5.imgcdn.dev/B1MSn.jpg'
+	},
+	{
+		title: 'Les détails',
+		text: "On pourrait commencer à croire qu'il ne reste plus grand chose... Détrompez-vous ! Nous avons fait ce qui est gros, les bases, mais notre équipe ne se contentera pas d'un chalet bricolé. On veut que ce chalet tienne, qu'il soit bien isolé, étanche aux rats et confortable. Nous travaillons sur chaque millimètre pour en faire quelque chose de propre. Pour le plan du chalet, nous sommes partis sur une séparation par cloison isolée à la laine de bois avec une porte. Les deux entrées permettent de faire 2 espaces séparés.",
+		image: 'https://s6.imgcdn.dev/B1KmT.jpg'
 	}
 ];
 
@@ -47,5 +52,11 @@ export const gallery = [
 	{ url: 'https://s5.imgcdn.dev/B1MSn.jpg' },
 	{ url: 'https://s5.imgcdn.dev/B1CaN.jpg' },
 	{ url: 'https://s5.imgcdn.dev/B14cv.jpg' },
-	{ url: 'https://s5.imgcdn.dev/B1Itq.jpg' }
+	{ url: 'https://s5.imgcdn.dev/B1Itq.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/B15St.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1KmT.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1TuD.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1Ua9.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1lWy.jpg' }
 ];
