@@ -25,6 +25,11 @@ export const days: Day[] = [
 		title: 'Les détails',
 		text: "On pourrait commencer à croire qu'il ne reste plus grand chose... Détrompez-vous ! Nous avons fait ce qui est gros, les bases, mais notre équipe ne se contentera pas d'un chalet bricolé. On veut que ce chalet tienne, qu'il soit bien isolé, étanche aux rats et confortable. Nous travaillons sur chaque millimètre pour en faire quelque chose de propre. Pour le plan du chalet, nous sommes partis sur une séparation par cloison isolée à la laine de bois avec une porte. Les deux entrées permettent de faire 2 espaces séparés.",
 		image: 'https://s6.imgcdn.dev/B1KmT.jpg'
+	},
+	{
+		title: 'Une maison',
+		text: "Ça y est presque ! Le chalet a des murs, des portes, le tout isolé. La fatigue se sent autant que la satisfaction. Il est maintenant question d'y retourner pendant les grandes vacances d'été pour faire une toiture plus résistante avec un bout de l'équipe. En attendant, le chalet est bien emballé et ne devrait pas souffrir des éventuelles intempéries qui arriverait d'ici à l'été. Il devrait être habitable et pour le temps que nous avons passé dedans, il y fait bon vivre !",
+		image: 'https://s6.imgcdn.dev/B1Zhl.jpg'
 	}
 ];
 
@@ -58,5 +63,13 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/B1KmT.jpg' },
 	{ url: 'https://s6.imgcdn.dev/B1TuD.jpg' },
 	{ url: 'https://s6.imgcdn.dev/B1Ua9.jpg' },
-	{ url: 'https://s6.imgcdn.dev/B1lWy.jpg' }
+	{ url: 'https://s6.imgcdn.dev/B1lWy.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/B1GiS.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1SrC.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1xu0.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1rme.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B121M.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1AWd.jpg' },
+	{ url: 'https://s6.imgcdn.dev/B1Zhl.jpg' }
 ];
