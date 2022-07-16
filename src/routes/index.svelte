@@ -17,10 +17,12 @@
 <div class="historic">
 	<h1>Historique</h1>
 	<p>
-		Eh oui ! Ceci est déjà le deuxième volet de notre aventure. Si vous voulez retrouver nos
-		motivations et les photos de la dernière fois, vous pouvez trouver le site de l'époque à <a
+		Eh oui ! Ceci est déjà le troisième volet de notre aventure. Si vous voulez retrouver nos
+		motivations et les photos de la première fois, vous pouvez trouver le site de l'époque à <a
 			href="https://projet.jansiac.repl.co">cette adresse</a
 		>
+		Le deuxième volet n'est plus disponible pour le moment, il faudra attendre le site qui fera le regroupement
+		du tout.
 	</p>
 </div>
 
