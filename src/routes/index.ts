@@ -10,6 +10,11 @@ export const days: Day[] = [
 		title: 'Une charpente solide',
 		text: "Presque toutes les poutres ont été posées et fixées (solidement puisque c'était principalement Antonin derrière). La porte de l'arrière est debout, l'équipe Duduche (constituée de Théo et Guillaume) ayant merveilleusement rempli la mission. Le toit attend ses tôles à une poutre près. Les journées de travail finissent à 21h et commencent à 6h pour certains. Malgré la chaleur, le lieu nous constitue toujours un agréable chantier.",
 		image: ''
+	},
+	{
+		title: 'Derniers plots de béton',
+		text: "La dernière étape de la journée consistait à couler les plots de béton qui supporteront les piliers de l'extension de toiture. Ce qui apparaît le moins sur les photos est bien évidemment ce qui prend le plus de temps à faire comme la porte ou un tour de bardage sur le haut du chalet. Des nuages pointent le bout de leur nez et les tôles ne sont pas encore posées, on croise les doigts !",
+		image: 'https://s6.imgcdn.dev/BpZSN.jpg'
 	}
 ];
 
@@ -24,5 +29,10 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/Bp1el.jpg' },
 	{ url: 'https://s6.imgcdn.dev/BpBzV.jpg' },
 	{ url: 'https://s6.imgcdn.dev/BpGtK.jpg' },
-	{ url: 'https://s6.imgcdn.dev/BprDo.jpg' }
+	{ url: 'https://s6.imgcdn.dev/BprDo.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/BpxOn.jpg' },
+	{ url: 'https://s6.imgcdn.dev/Bp2gg.jpg' },
+	{ url: 'https://s6.imgcdn.dev/BpOQv.jpg' },
+	{ url: 'https://s6.imgcdn.dev/BpZSN.jpg' }
 ];
