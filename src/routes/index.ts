@@ -15,6 +15,11 @@ export const days: Day[] = [
 		title: 'Derniers plots de béton',
 		text: "La dernière étape de la journée consistait à couler les plots de béton qui supporteront les piliers de l'extension de toiture. Ce qui apparaît le moins sur les photos est bien évidemment ce qui prend le plus de temps à faire comme la porte ou un tour de bardage sur le haut du chalet. Des nuages pointent le bout de leur nez et les tôles ne sont pas encore posées, on croise les doigts !",
 		image: 'https://s6.imgcdn.dev/BpZSN.jpg'
+	},
+	{
+		title: 'Surprise !',
+		text: "Un orage  s'est annoncé, assez pour tout nous faire ranger à l'abri... Mais il n'est pas venu, donc le prairies sont toujours sèches. On espère encore une pluie cette nuit puisque tout devrait encore être à l'abri. Dans la hâte, les tôles ont été temporairement posées et le tour entier du chalet a été fait avec les lames de bardage avec Théo à la coupe qui débitait les lames avec efficacité. Pour changer, le chantier prend plus de temps que prévu... Mais tout devrait être fini avant notre départ, fini au point d'être habitable même en hiver.",
+		image: 'https://s6.imgcdn.dev/Bp3Kw.jpg'
 	}
 ];
 
@@ -34,5 +39,10 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/BpxOn.jpg' },
 	{ url: 'https://s6.imgcdn.dev/Bp2gg.jpg' },
 	{ url: 'https://s6.imgcdn.dev/BpOQv.jpg' },
-	{ url: 'https://s6.imgcdn.dev/BpZSN.jpg' }
+	{ url: 'https://s6.imgcdn.dev/BpZSN.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/BpLOt.jpg' },
+	{ url: 'https://s6.imgcdn.dev/Bp3Kw.jpg' },
+	{ url: 'https://s6.imgcdn.dev/BpbET.jpg' },
+	{ url: 'https://s6.imgcdn.dev/BpmiD.jpg' }
 ];
