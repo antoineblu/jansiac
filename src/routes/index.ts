@@ -20,6 +20,16 @@ export const days: Day[] = [
 		title: 'Surprise !',
 		text: "Un orage  s'est annoncé, assez pour tout nous faire ranger à l'abri... Mais il n'est pas venu, donc le prairies sont toujours sèches. On espère encore une pluie cette nuit puisque tout devrait encore être à l'abri. Dans la hâte, les tôles ont été temporairement posées et le tour entier du chalet a été fait avec les lames de bardage avec Théo à la coupe qui débitait les lames avec efficacité. Pour changer, le chantier prend plus de temps que prévu... Mais tout devrait être fini avant notre départ, fini au point d'être habitable même en hiver.",
 		image: 'https://s6.imgcdn.dev/Bp3Kw.jpg'
+	},
+	{
+		title: 'Un peu tard',
+		text: "Les derniers sont descendus du toit du chalet à 10h du soir quand on ne pouvait plus rien faire sans lampe torche, l'objectif étant de bien fixer les tôles pour résister au vent pendant la nuit mais le toit est au moins fini. Au courant du jour, le trou du poêle a été fait et étanchéifié. Nous avons cherché 2 mélèzes dans la forêt en face pour faire les 2 piliers qui soutiendront la casquette du chalet.",
+		image: 'https://s6.imgcdn.dev/GDChK.jpg'
+	},
+	{
+		title: 'Belle journée',
+		text: "La journée s'est terminée plus tranquillement vers 21h. De belles étapes ont été passées comme le poêle définitivement posé, les mélèzes de la casquette mis en place pour laisser place aux tâches périphériques qui sont des finitions pour pouvoir en faire un chalet entier pour les prochaines années. Les journées sont denses, d'où les retards pour le site, comme aujourd'hui à 00:30 après une douche de minuit.",
+		image: 'https://s6.imgcdn.dev/GDnrv.jpg'
 	}
 ];
 
@@ -44,5 +54,18 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/BpLOt.jpg' },
 	{ url: 'https://s6.imgcdn.dev/Bp3Kw.jpg' },
 	{ url: 'https://s6.imgcdn.dev/BpbET.jpg' },
-	{ url: 'https://s6.imgcdn.dev/BpmiD.jpg' }
+	{ url: 'https://s6.imgcdn.dev/BpmiD.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/GDjrM.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDhi0.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDMul.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDwmd.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDc1h.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDChK.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/GDNZO.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDIKo.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDQ8n.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDkig.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDnrv.jpg' }
 ];
