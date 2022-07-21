@@ -30,6 +30,11 @@ export const days: Day[] = [
 		title: 'Belle journée',
 		text: "La journée s'est terminée plus tranquillement vers 21h. De belles étapes ont été passées comme le poêle définitivement posé, les mélèzes de la casquette mis en place pour laisser place aux tâches périphériques qui sont des finitions pour pouvoir en faire un chalet entier pour les prochaines années. Les journées sont denses, d'où les retards pour le site, comme aujourd'hui à 00:30 après une douche de minuit.",
 		image: 'https://s6.imgcdn.dev/GDnrv.jpg'
+	},
+	{
+		title: 'Plus tranquille',
+		text: "On sent une réelle fin de chantier avec plus que la terasse qui manque, Antonin est parti ce midi donc en termes de dates à respecter, nous sommes plutôt tranquilles. Pour la terrasse il faut encore un élément difficile à trouver : une cornière contre les rongeurs afin d'en isoler le chalet.",
+		image: 'https://s6.imgcdn.dev/GDeTK.jpg'
 	}
 ];
 
@@ -67,5 +72,8 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/GDIKo.jpg' },
 	{ url: 'https://s6.imgcdn.dev/GDQ8n.jpg' },
 	{ url: 'https://s6.imgcdn.dev/GDkig.jpg' },
-	{ url: 'https://s6.imgcdn.dev/GDnrv.jpg' }
+	{ url: 'https://s6.imgcdn.dev/GDnrv.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/GDbjV.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDeTK.jpg' }
 ];
