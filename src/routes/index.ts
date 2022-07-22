@@ -35,6 +35,11 @@ export const days: Day[] = [
 		title: 'Plus tranquille',
 		text: "On sent une réelle fin de chantier avec plus que la terasse qui manque, Antonin est parti ce midi donc en termes de dates à respecter, nous sommes plutôt tranquilles. Pour la terrasse il faut encore un élément difficile à trouver : une cornière contre les rongeurs afin d'en isoler le chalet.",
 		image: 'https://s6.imgcdn.dev/GDeTK.jpg'
+	},
+	{
+		title: 'Une belle terasse',
+		text: "Les journées sont toujours calmes et paisibles,les discussions sont un peu plus vives au sujet de la résolution du problème de l'isolation aux rongeurs et aux guêpes... Les fondations de la terasse sont presque prêtes et des rives pour finir de porter la tôle ont été posées. Toujours une bonne ambiance avec des zouaves de tout âge, prêts à blaguer toute la journée.",
+		image: 'https://s6.imgcdn.dev/GDJ0q.jpg'
 	}
 ];
 
@@ -75,5 +80,9 @@ export const gallery = [
 	{ url: 'https://s6.imgcdn.dev/GDnrv.jpg' },
 
 	{ url: 'https://s6.imgcdn.dev/GDbjV.jpg' },
-	{ url: 'https://s6.imgcdn.dev/GDeTK.jpg' }
+	{ url: 'https://s6.imgcdn.dev/GDeTK.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/GDJ0q.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GDo3B.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYDwu.jpg' }
 ];
