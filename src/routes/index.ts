@@ -40,6 +40,16 @@ export const days: Day[] = [
 		title: 'Une belle terasse',
 		text: "Les journées sont toujours calmes et paisibles,les discussions sont un peu plus vives au sujet de la résolution du problème de l'isolation aux rongeurs et aux guêpes... Les fondations de la terasse sont presque prêtes et des rives pour finir de porter la tôle ont été posées. Toujours une bonne ambiance avec des zouaves de tout âge, prêts à blaguer toute la journée.",
 		image: 'https://s6.imgcdn.dev/GDJ0q.jpg'
+	},
+	{
+		title: 'Apéro jansiacais',
+		text: "Ce n'est pas parce qu'il manque des planches à la terrasse qu'on ne peut pas l'utiliser ! C'est ainsi que ce soir, nous avons pris l'apéro sur notre belle terrasse (pas encore fixée) et le courant d'air y est agréable. Malgré leur âge, les planches tiennent encore, un petit muret de pierres sèches vient sur le côté agrandir le virage pour la contourner.",
+		image: 'https://s6.imgcdn.dev/GYU7d.jpg'
+	},
+	{
+		title: 'Apéro moins jansiacais',
+		text: "Cette fois-ci la terrasse est fixée et entière, le courant d'air n'a pas bougé et l'ambiance y est toujours agréable grâce aux membres de la communauté. Nous avons commencé à recouvrir le pare-pluie qui craint le soleil avec du liner pour le protéger mais l'opération n'est pas finie... Pas d'inquiétude, tout ce qui est nécessaire pour qu'il soit entièrement habitable est présent, il ne reste que des détails pour le faire durer plus longtemps qu'on pourra gérer plus tard. C'est donc probablement aujourd'hui la fin des aventures sur le site.",
+		image: 'https://s6.imgcdn.dev/GYlLl.jpg'
 	}
 ];
 
@@ -84,5 +94,13 @@ export const gallery = [
 
 	{ url: 'https://s6.imgcdn.dev/GDJ0q.jpg' },
 	{ url: 'https://s6.imgcdn.dev/GDo3B.jpg' },
-	{ url: 'https://s6.imgcdn.dev/GYDwu.jpg' }
+	{ url: 'https://s6.imgcdn.dev/GYDwu.jpg' },
+
+	{ url: 'https://s6.imgcdn.dev/GYcHD.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYC7y.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYiUi.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYTIM.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYU7d.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYa6h.jpg' },
+	{ url: 'https://s6.imgcdn.dev/GYlLl.jpg' }
 ];
