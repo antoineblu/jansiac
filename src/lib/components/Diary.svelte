@@ -2,26 +2,33 @@
 	import type { Day } from './Day';
 	import Image from './Image.svelte';
 	import { fly } from 'svelte/transition';
-	export let days: Day[];
+	export let seasons: Day[][];
 
-	let index = days.length - 1;
+	let seasonIndex = 0;
+	let dayIndex = 0;
 	let day: Day;
 
-	$: if (index != -1) {
-		index = Math.min(Math.max(0, index), days.length);
-		day = days[index];
+	$: if (seasons[seasonIndex] && seasons[seasonIndex][dayIndex]) {
+		day = seasons[seasonIndex][dayIndex];
 	}
 
 	const duration = 700;
 </script>
 
 <div class="diary">
-	<select bind:value={index}>
-		{#each days as d, i}
-			<option value={i}>Jour {i + 1} - {d.title}</option>
-		{/each}
-	</select>
-	{#key index}
+	<div class="selects">
+		<select bind:value={seasonIndex}>
+			{#each seasons as _, i}
+				<option value={i}>Saison {i + 1}</option>
+			{/each}
+		</select>
+		<select bind:value={dayIndex}>
+			{#each seasons[seasonIndex] as d, i}
+				<option value={i}>Jour {i + 1} - {d.title}</option>
+			{/each}
+		</select>
+	</div>
+	{#key dayIndex+seasonIndex}
 		<div
 			class="text"
 			in:fly={{ x: -300, duration, delay: duration }}
@@ -48,17 +55,19 @@
 		width: 90vw;
 		margin-left: 5vw;
 	}
+	.selects {
+		position: absolute;
+		right: 0;
+		bottom: 5rem;
+		z-index: 3;
+	}
 	select {
 		font-size: 1.5rem;
-		top: -2rem;
-		right: 0;
-		position: absolute;
-		z-index: 3;
 		background-color: #555;
 		border: none;
 		padding: 1rem;
 		color: white;
-		transform: translateX(-1rem);
+		max-width: 95vw;
 	}
 	.image {
 		position: absolute;

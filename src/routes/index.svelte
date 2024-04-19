@@ -5,24 +5,19 @@
 	import Lazyload from '$lib/components/Lazyload.svelte';
 	import '$lib/styles/global.css';
 
-	import { days, gallery } from './index';
+	import { seasons, gallery } from './index';
 </script>
 
 <svelte:head>
 	<title>Un chalet à Jansiac</title>
 </svelte:head>
 
-<Diary {days} />
+<Diary {seasons} />
 
 <div class="historic">
-	<h1>Historique</h1>
+	<h1>Vidéo</h1>
 	<p>
-		Eh oui ! Ceci est déjà le troisième volet de notre aventure. Si vous voulez retrouver nos
-		motivations et les photos de la première fois, vous pouvez trouver le site de l'époque à <a
-			href="https://projet.jansiac.repl.co">cette adresse</a
-		>
-		Le deuxième volet n'est plus disponible pour le moment, il faudra attendre le site qui fera le regroupement
-		du tout.
+		Vous pouvez regarder la vidéo accélérée à <a href="https://youtu.be/v3SpP-3fqgw" target="_blank">cette adresse</a>.
 	</p>
 </div>
 
